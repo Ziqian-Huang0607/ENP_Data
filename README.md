@@ -86,6 +86,31 @@ This repository presents several algorithm approaches that can potentially be us
 *   **Algorithm Selection:** The best algorithm depends on data characteristics and the operation. No single solution fits all cases.
 *   **Real-World Databases:** Optimized database systems like SAP HANA use data compression, query optimization, caching, etc., not covered here.
 
+## Recorded Speed on Example System
+
+Fast Group By Sum Time: 0.007817 seconds
+
+Vectorized String Search Time: 0.409823 seconds
+
+Sorted Intersect Time: 0.033284 seconds
+
+Parallel Top K time : 0.651712 seconds using 4 threads
+
+--- Results ---
+
+Group Sums (first 10): [7.12579915 4.82668659 6.38690715 6.88517474 7.0372191  3.51176267
+
+ 6.92013293 3.5331242  7.30527909 2.00707586]
+ 
+String Search Matches (first 10): [False False  True False False False False False False False]
+
+Intersection Size: 386265
+
+Top 10 K Elements: [0.99999831 0.99999493 0.99999461 0.99999282 0.99999204 0.99999125
+
+ 0.99999003 0.99998943 0.99998938 0.9999885 ]
+ 
 ## Contributing
 
 This is intended to be an open-source project. Contributions, including algorithm improvements, benchmarks, and detailed explanations, are welcome!  Submit pull requests with clear descriptions.
+Contact me: ziqian.huang@hotmail.com
