@@ -1,5 +1,7 @@
 # ENP: High-Performance Algorithmic Examples
 [![DOI](https://zenodo.org/badge/929189893.svg)](https://doi.org/10.5281/zenodo.14838451)
+
+
 This repository presents several algorithm approaches that can potentially be used in database systems (such as SAP HANA) to improve performance. The focus is on demonstrating the *algorithmic* principles.  This is *not* a production-ready database system.  The algorithms are implemented in Python for clarity and ease of experimentation. However, it's important to realize that **Python is not an efficient language for real-world database implementations.** C, C++, or other low-level languages would be needed for best performance.
 
 **Disclaimer:** This is an *example* implementation for educational and research. The performance shown here might not apply to complex database systems like SAP HANA. These examples are intended to spark ideas for algorithmic improvements that could be implemented in a suitable language and integrated into a database system.
